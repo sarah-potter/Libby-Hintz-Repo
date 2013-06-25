@@ -508,3 +508,8 @@ require_once ( get_template_directory() . '/inc/theme-options.php' );
  * Load Jetpack compatibility file.
  */
 require( get_template_directory() . '/inc/jetpack.compat.php' );
+
+/**
+ * Load scripts for royal slider
+ */
+register_new_royalslider_files(2);

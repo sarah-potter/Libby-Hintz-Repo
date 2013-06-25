@@ -414,23 +414,35 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 	border: 0;
 	max-width: 100%;
 	height: auto;
+	margin-left: 2.3em;
+	margin-top: 3.6em;
+}
+#social-media-icons{
+	position: absolute;
+	left: 78.3%;
+	top: 32%;
+}
+#social-media-icons img{
+	padding-right: 1.5em;
 }
 
 /* =Menu
 ----------------------------------------------- */
 
 #access {
-	border-top: 1px solid #ccc;
+	border-top: 0;
 	display: block;
 	float: left;
 	margin: 0 auto;
 	padding: 1px 0 0;
-	width: 100%;
+	margin-left: 12.75em;
+	margin-top: -2.3em;
+	width: 70%;
 }
 #access ul {
-	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font-family: "Raleway";
 	font-size: 13px;
-	font-weight: bold;
+	font-weight: normal;
 	list-style: none;
 	margin: 0;
 	padding-left: 0;
@@ -441,7 +453,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 	position: relative;
 }
 #access a {
-	color: #000;
+	color: #7acccd;
 	display: block;
 	line-height: 2em;
 	margin: 0 1px 0 0;
@@ -477,8 +489,8 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 }
 #access li:hover > a,
 #access ul ul :hover > a {
-	background: #000;
-	color: #fff;
+	background: none;
+	color: #d48855;
 }
 #access ul ul a:hover {
 	background: #222;
@@ -490,10 +502,49 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 #access .current-menu-ancestor a,
 #access .current_page_item a,
 #access .current_page_ancestor a {
-	background: #000;
-	color: #fff;
+	background: none;
+	color: #d48855;
 }
 
+
+#new-royalslider-2{
+	margin: auto;
+	overflow: hidden;
+}
+
+#lower-buttons{
+	
+}
+
+
+#lower-buttons ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+	}
+#lower-buttons ul li { 
+	display: inline; 
+	}
+#lower-buttonsul li a {
+	text-decoration: none;
+	padding: .2em 1em;
+	color: #fff;
+	background-color: #036;
+	display: inline;
+	}
+#lower-buttons ul li a:hover{
+	color: #fff;
+	}
+#lower-buttons a.shop{
+	background: #8ed4d5;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #fff;
+	font-family: 'Raleway';
+	letter-spacing: .1em;
+	padding: 1em 8em;
+}
 
 /* =Content
 ----------------------------------------------- */
@@ -1106,6 +1157,21 @@ a.entry-format:hover {
 	margin: 0 auto 10px;
 }
 
+#bottom-border{
+	position: absolute;
+	height: 40px;
+	background: #7acccd;
+	width: 100%;
+	left: 0;
+}
+
+#footer-border{
+	border-top: double #7acccd;
+	height: 5px;
+	left: 0;
+	width: 100%;
+	margin-bottom: .5em;
+}
 
 /* =Float Clearing
 -------------------------------------------------------------- */

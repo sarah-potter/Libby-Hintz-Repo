@@ -60,6 +60,13 @@
 			<?php endif; // end check for removed header image ?>
 		</div><!-- #branding -->
 		
+		<div id="social-media-icons">
+			<a href="https://twitter.com/LibbyHintzArt" target="_blank"><img src="wp-content/themes/libby/images/twitter.png"></a>
+			
+			<a href="https://www.vimeo.com/libbyhintzart" target="_blank"><img src="wp-content/themes/libby/images/vimeo.png"></a>
+			
+			<a href="https://www.facebook.com/libbyhintzart" target="_blank"><img src="wp-content/themes/libby/images/facebook.png"></a>
+		</div>
 		
 		<div id="access" role="navigation">
 		  <?php /*  Allow screen readers / text browsers to skip the navigation menu and get right to the good stuff */ ?>
