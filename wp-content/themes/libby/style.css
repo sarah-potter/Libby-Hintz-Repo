@@ -68,6 +68,8 @@ body.no-sidebars #container,
 }
 #content-container {
 	width: 100%;
+	padding: 0em 1em;
+	margin: auto;
 }
 body.no-sidebars #content-container {
 	overflow: hidden;
@@ -244,13 +246,12 @@ body, input, textarea {
 	width: 100%;
 	margin: auto;
 	max-width: 960px;
-	overflow: hidden;
 	}
 
 /* Headings */
 h1, h2, h3 {
 	color: #000;
-	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font-family: 'Raleway';
 	font-weight: bold;
 	text-rendering: optimizelegibility;
 }
@@ -258,10 +259,10 @@ h1 {
 	letter-spacing: -0.03em;
 }
 hr {
-	background-color: #ccc;
-	border: 0;
-	height: 1px;
-	margin-bottom: 1.7em;
+	border-top: medium double #7acccd;
+	background: transparent;
+	height: 2px;
+	margin-bottom: .5em;
 }
 
 /* Text elements */
@@ -387,70 +388,70 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 	position: absolute;
 	top: -.75em;
 	left:0;
-}
-
+	}
 #header {
 	margin: 0 0 28px;
-}
+	}
 #masthead {
 	padding: 28px 0 0 0;
-}
+	}
 #site-title {
-	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font-family: 'Raleway';
 	font-size: 36px;
 	letter-spacing: -0.03em;
 	line-height: 42px;
 	text-align: center;
-}
+	}
 #site-title a {
 	color: #000;
 	font-weight: bold;
 	text-decoration: none;
-}
+	}
 #site-description {
 	color: #000;
-	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font-family: 'Raleway';
 	font-size: 18px;
 	margin: 0 0 9px 0;
 	text-align: center;
-}
+	}
 #branding img {
-border: 0;
-max-width: 100%;
-height: auto;
-margin-left: 1.25em;
-margin-top: 3.7em;
-}
+	border: 0;
+	max-width: 100%;
+	height: auto;
+	margin-left: 1.8em;
+	margin-top: 3.7em;
+	}
 #social-media-icons{
 	position: absolute;
-	left: 78.3%;
-	top: 32%;
-}
+	left: 79.2%;
+	top: 32.1%;
+	}
 #social-media-icons img{
 	padding-right: 1.5em;
-}
+	}
 
 /* =Menu
 ----------------------------------------------- */
 
 #access {
-	border-top: 0;
-	display: block;
-	float: left;
-	margin: 0 auto;
-	padding: 1px 0 0;
-	margin-left: 12.75em;
-	margin-top: -2.3em;
-	width: 70%;
+border-top: 0;
+display: block;
+float: left;
+margin: 0 auto;
+padding: 1px 0 0;
+margin-left: 11.5em;
+margin-top: -2.3em;
+width: 70%;
+letter-spacing: .1em;
 }
 #access ul {
-	font-family: "Raleway";
-	font-size: 13px;
-	font-weight: normal;
-	list-style: none;
-	margin: 0;
-	padding-left: 0;
-	text-transform: uppercase;
+font-family: "Raleway";
+font-size: 13px;
+font-weight: normal;
+list-style: none;
+margin: 0;
+padding-left: 0;
+text-transform: uppercase;
 }
 #access li {
 	float: left;
@@ -511,13 +512,14 @@ margin-top: 3.7em;
 }
 
 
-#new-royalslider-2{
+#new-royalslider-1{
 	margin: auto;
-	overflow: hidden;
 }
 
 #lower-buttons{
-	
+	width: 100%;
+height: 100px;
+clear: both;
 }
 
 
@@ -536,27 +538,55 @@ margin-top: 3.7em;
 	color: #fff;
 	background-color: #036;
 	display: inline;
+	font-family: 'Raleway';
 	}
+#lower-buttons a{
+	font-family: 'Raleway';
+	color: #FFF;
+	text-decoration: none;
+}
+	
 #lower-buttons ul li a:hover{
 	color: #fff;
 	}
 #lower-buttons a.shop{
-	background: #8ed4d5;
-	font-size: 20px;
-	text-transform: uppercase;
-	color: #fff;
-	font-family: 'Raleway';
-	letter-spacing: .1em;
-	padding: 1em 8em;
+position: absolute;
+left: 13.8%;
+background: #8ed4d5;
+font-size: 20px;
+letter-spacing: .1em;
+width:550px;
+padding: 1em 0;
 }
-
+#lower-buttons a.gallery{
+	position: absolute;
+	padding: 1.5em 0;
+	background: #30afaa;
+	width: 125px;
+	left: 58%
+}
+#lower-buttons a.about{
+position: absolute;
+color: #FFF;
+background: #00cac1;
+left: 69%;
+padding: 1.5em 0em;
+width: 108px;
+}
+#lower-buttons a.blog{
+position: absolute;
+padding: 1.5em 0em;
+width: 125px;
+background: #30afaa;
+left: 79%;
+}
 /* =Content
 ----------------------------------------------- */
 
 .page-title {
 	border-bottom: 1px solid #ccc;
 	border-top: 3px solid #000;
-	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font-family: 'Raleway';
 	font-size: 13px;
 	font-weight: bold;
 	letter-spacing: 0.025em;
@@ -590,7 +620,7 @@ margin-top: 3.7em;
 }
 .entry-meta {
 	color: #888;
-	font: 12px "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font: 12px 'Raleway';
 }
 .entry-meta a {
 	color: #888;
@@ -643,7 +673,7 @@ margin-top: 3.7em;
 }
 .entry-content tr th,
 .entry-content thead th {
-	font: 12px "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font: 12px 'Raleway';
 	font-weight: bold;
 	line-height: 18px;
 	padding: 9px 12px;
@@ -813,7 +843,7 @@ img.aligncenter {
 }
 .wp-caption {
 	background: #eee;
-	font: 12px "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font: 12px 'Raleway';
 	margin-bottom: 1.7em;
 	padding: 5px 3px 10px;
 	text-align: center;
@@ -875,7 +905,7 @@ a.entry-format:visited,
 a.entry-format:hover {
 	color: rgba(0,0,0,.2);
 	display: inline-block;
-	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font-family: 'Raleway';
 	font-size: 13px;
 	font-weight: bold;
 	margin: 0 0 10px;
@@ -957,7 +987,7 @@ a.entry-format:hover {
 .widget-title {
 	border-bottom: 1px solid #ccc;
 	border-top: 3px solid #000;
-	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font-family: 'Raleway';
 	font-size: 13px;
 	font-weight: bold;
 	letter-spacing: 0.025em;
@@ -979,7 +1009,7 @@ a.entry-format:hover {
 	width: 100%;
 }
 #wp-calendar caption {
-	font: 13px "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font: 13px 'Raleway';
 	font-weight: bold;
 	text-align: left;
 	padding: 0 2px 6px;
@@ -1031,7 +1061,7 @@ a.entry-format:hover {
 }
 #comments h3 {
 	border-bottom: 1px solid #ccc;
-	font-family: "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font-family: 'Raleway';
 	font-size: 13px;
 	font-weight: bold;
 	letter-spacing: 0.025em;
@@ -1059,7 +1089,7 @@ a.entry-format:hover {
 	margin-top: -1.65em;
 }
 #comments li.pingback p {
-	font: 12px "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font: 12px 'Raleway';
 	margin: 0;
 }
 #comments ul li {
@@ -1078,7 +1108,7 @@ a.entry-format:hover {
 #comments .comment-meta,
 #comments .comment-meta a {
 	color: #888;
-	font: 12px "Helvetica Neue", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font: 12px 'Raleway';
 }
 #comments .comment-meta a:hover {
 	color: #df0000;

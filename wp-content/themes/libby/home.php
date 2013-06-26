@@ -9,18 +9,16 @@ get_header(); ?>
 <div id="content-container">
 	<div id="content" role="main">
 
-<hr />
-<hr />
-
-	<?php echo get_new_royalslider(1);?>
-
+	<hr />
+		<?php echo get_new_royalslider(1);?>
+	<hr />
 
 	<div id="lower-buttons">
 		<ul>
-			<li><a class="shop">SHOP</a></li>
-			<li class="gallery"><a>GALLERY</a></li>
-			<li class="about"><a>ABOUT</a></li>
-			<li class="blog"><a>BLOG</a></li>
+			<li><a class="shop" href="/shop">SHOP</a></li>
+			<li><a class="gallery" href="/gallery">GALLERY</a></li>
+			<li><a class="about" href="/about">ABOUT</a></li>
+			<li><a class="blog" href="/blog">BLOG</a></li>
 		</ul>
 	</div>
 
