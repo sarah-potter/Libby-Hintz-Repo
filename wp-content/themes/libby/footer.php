@@ -10,7 +10,7 @@
 		<?php get_sidebar( 'footer' ); ?>
 
 		<div id="colophon">
-		<p id="site-cred"><a href="http://blog.waterfall-creative.com" target="_blank"> design by Joanna Waterfall</a>// <a href="http://www.sarahpotter.net/index.html" target="_blank"> development by Sarah Potter</a> </p>
+		<p id="site-cred"><a href="http://blog.waterfall-creative.com" target="_blank"> design by Joanna Waterfall</a><span class="slash">//</span> <a href="http://www.sarahpotter.net/index.html" target="_blank"> development by Sarah Potter</a> </p>
 		
 		
 		</div><!-- #colophon -->
@@ -18,13 +18,8 @@
 
 </div><!-- #container -->
 
-<?php wp_footer(); ?>
+	<?php wp_footer(); ?>
+	<div id="bottom-border"><div id="top-border"></div></div>
 
 </body>
-<div id="footer-border"> </div>
-<div id="bottom-border"> </div>
 </html>
-
-
-
-design by Joanna Waterfall // development by Sarah Potter

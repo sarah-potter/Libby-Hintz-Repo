@@ -15,7 +15,7 @@ get_header(); ?>
 
 	<div id="lower-buttons">
 		<ul>
-			<li><a class="shop" href="/shop">SHOP</a></li>
+			<li><div id="mosaic-border"></div><a class="shop" href="/shop">SHOP</a></li>
 			<li><a class="gallery" href="/gallery">GALLERY</a></li>
 			<li><a class="about" href="/about">ABOUT</a></li>
 			<li><a class="blog" href="/blog">BLOG</a></li>
