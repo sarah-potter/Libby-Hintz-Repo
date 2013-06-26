@@ -241,7 +241,11 @@ body, input, textarea {
 	color: #333;
 	font: 14px Georgia, "Bitstream Charter", serif;
 	line-height: 1.7;
-}
+	width: 100%;
+	margin: auto;
+	max-width: 960px;
+	overflow: hidden;
+	}
 
 /* Headings */
 h1, h2, h3 {
@@ -411,11 +415,11 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 	text-align: center;
 }
 #branding img {
-	border: 0;
-	max-width: 100%;
-	height: auto;
-	margin-left: 2.3em;
-	margin-top: 3.6em;
+border: 0;
+max-width: 100%;
+height: auto;
+margin-left: 1.25em;
+margin-top: 3.7em;
 }
 #social-media-icons{
 	position: absolute;

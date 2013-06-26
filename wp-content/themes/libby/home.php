@@ -12,7 +12,7 @@ get_header(); ?>
 <hr />
 <hr />
 
-	<!-- /* <?php echo get_new_royalslider(2);?> */ -->
+	<?php echo get_new_royalslider(1);?>
 
 
 	<div id="lower-buttons">
