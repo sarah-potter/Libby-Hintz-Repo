@@ -12,17 +12,17 @@ Template:       coraline
 
 p{
 	font-family: 'Raleway', sans-serif;
-}
+	}
 
 /* remember to define focus styles! */
 :focus {
 	outline: 0;
-}
+	}
 body {
 	background: #fff;
 	color: #333;
 	line-height: 1;
-}
+	}
 ol, ul {
 	list-style: none;
 }
