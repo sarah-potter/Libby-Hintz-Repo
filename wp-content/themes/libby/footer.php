@@ -10,7 +10,7 @@
 		<?php get_sidebar( 'footer' ); ?>
 
 		<div id="colophon">
-		<p id="site-cred"><a href="http://blog.waterfall-creative.com" target="_blank"> design by Joanna Waterfall</a><span class="slash">//</span> <a href="http://www.sarahpotter.net/index.html" target="_blank"> development by Sarah Potter</a> </p>
+		<p id="site-cred"><a href="http://blog.waterfall-creative.com" target="_blank"> design by Joanna Waterfall&nbsp;</a><span class="slash"> // </span> <a href="http://www.sarahpotter.net/index.html" target="_blank"> &nbsp;development by Sarah Potter</a> </p>
 		
 		
 		</div><!-- #colophon -->

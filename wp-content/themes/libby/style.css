@@ -423,7 +423,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 #social-media-icons{
 	position: absolute;
 	left: 79.2%;
-	top: 32.1%;
+	top: 32%;
 	}
 #social-media-icons img{
 	padding-right: 1.5em;
@@ -533,53 +533,53 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 	display: inline;
 	font-family: 'Raleway';
 	}
+	
+	
 #lower-buttons a{
 	font-family: 'Raleway';
 	color: #FFF;
 	text-decoration: none;
+	margin-right: .5em;
 	}
 #lower-buttons ul li a:hover{
 	color: #fff;
 	}
-#lower-buttons a.shop{
-	position: absolute;
-	left: 13.8%;
+#shop a.shop{
+	float: left;
 	background: #8ed4d5;
 	font-size: 20px;
 	letter-spacing: .1em;
-	width:550px;
+	width:57.5%;
 	padding: .4em 0;
 	}
-#lower-buttons a.gallery{
-	position: absolute;
+#gallery a.gallery{
+	float: left;
 	padding: 1.5em 0;
 	background: #30afaa;
-	width: 125px;
-	left: 58%
+	width: 13.5%;
 	}
-#lower-buttons a.about{
-	position: absolute;
-	color: #FFF;
-	background: #00cac1;
-	left: 69%;
-	padding: 1.5em 0em;
-	width: 108px;
+#about a.about{
+	background: #00cac1;	
+	float: left;
+	padding: 1.5em 0;
+	width: 13%;
 }
-#lower-buttons a.blog{
-	position: absolute;
+#blog a.blog{
+	float: left;
 	padding: 1.5em 0em;
-	width: 125px;
+	width: 13.5%;
 	background: #30afaa;
-	left: 79%;
+	margin-right: 0;
 	}
 #mosaic-border{
 	background: url('images/shop-mosaic-bottom.png') no-repeat;
 	height: 7px;
 	float: left;
-	width: 550px;
+	width: 57%;
+	max-width: 550px;
 	position: absolute;
 	margin-top: 4em;
-}
+	}
 .widget_nav_menu li{
 	float: left;
 	display: inline;

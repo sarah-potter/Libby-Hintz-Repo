@@ -39,6 +39,7 @@ if ( defined( 'ABSPATH' ) && !class_exists("NewRoyalSliderMain") ) {
 		global $new_royalSlider;		
 		return $new_royalSlider->push_script($id);
 	}
+	
 
 }
 ?>
