@@ -15,7 +15,7 @@
 <!--<![endif]-->
 
 <head>
-<div id="mosaic-top-border"><img src="wp-content/themes/libby/images/mosaic-top-border.png"></div>
+<div id="mosaic-top-border"><img src="httP://localhost:8888/wp-content/themes/libby/images/mosaic-top-border.png"></div>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <title><?php wp_title( '|', true, 'right' ); ?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
@@ -74,11 +74,11 @@ jQuery(document).ready(function($) {
 		</div><!-- #branding -->
 		
 		<div id="social-media-icons">
-			<a href="https://twitter.com/LibbyHintzArt" target="_blank"><img src="wp-content/themes/libby/images/twitter.png"></a>
+			<a href="https://twitter.com/LibbyHintzArt" target="_blank"><img src="httP://localhost:8888/wp-content/themes/libby/images/twitter.png"></a>
 			
-			<a href="https://www.vimeo.com/libbyhintzart" target="_blank"><img src="wp-content/themes/libby/images/vimeo.png"></a>
+			<a href="https://www.vimeo.com/libbyhintzart" target="_blank"><img src="httP://localhost:8888/wp-content/themes/libby/images/vimeo.png"></a>
 			
-			<a href="https://www.facebook.com/libbyhintzart" target="_blank"><img src="wp-content/themes/libby/images/facebook.png"></a>
+			<a href="https://www.facebook.com/libbyhintzart" target="_blank"><img src="httP://localhost:8888/wp-content/themes/libby/images/facebook.png"></a>
 		</div>
 		
 		<div id="access" role="navigation">

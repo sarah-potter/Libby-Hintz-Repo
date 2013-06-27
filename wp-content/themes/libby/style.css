@@ -423,7 +423,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 #social-media-icons{
 	position: absolute;
 	left: 79.2%;
-	top: 32%;
+	top: 31%;
 	}
 #social-media-icons img{
 	padding-right: 1.5em;
@@ -1246,20 +1246,89 @@ a.entry-format:hover {
 }
 
 
-
-/* =Float Clearing
--------------------------------------------------------------- */
-
-.contain:before,
-.contain:after {
-	content: "\0020";
-	display: block;
-	height: 0;
-	visibility: hidden;
+/* =Store Styles
+------------------*/
+.woocommerce-info{
+	
 }
-.contain:after {
-	clear: both;
+
+.products li{
+	float: left;
+	width: 33%;
+	list-style: none;
+	text-align: center;
 }
-.contain {
-	zoom: 1;
+.products a{
+	text-decoration: none;
+}
+.products li img{
+	height: auto;
+}
+.products h3{
+	color: #d38652;
+	text-decoration: none;
+	font-family: 'Raleway';
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.amount{
+	text-decoration: none;
+	color: #555555;
+}
+
+a.add_to_cart_button{
+	content: "sarah"
+}
+
+a.woocommerce-main-image{
+	float: left;
+}
+
+h1.product_title{
+	float: left;
+}
+p.price{
+	float: left;
+}
+.woocommerce-result-count{
+	display: none;
+}
+
+
+.woocommerce ul.products li.product a, .woocommerce-page ul.products li.product a {
+	text-decoration: none;
+	}
+	
+.woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit, .woocommerce #content input.button, .woocommerce-page a.button, .woocommerce-page button.button, .woocommerce-page input.button, .woocommerce-page #respond input#submit, .woocommerce-page #content input.button{
+	font-size: 100%;
+margin: 0;
+line-height: 1em;
+cursor: pointer;
+position: relative;
+font-family: inherit;
+text-decoration: none;
+overflow: visible;
+padding: 6px 10px;
+text-decoration: none;
+font-weight: 700;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+left: auto;
+text-shadow: 0 1px 0 #fff;
+color: #5e5e5e;
+text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+border: 1px solid #c7c0c7;
+background: #f7f6f7;
+background: 0;
+background: 0;
+background: 0;
+background: 0;
+white-space: nowrap;
+display: inline-block;
+-webkit-box-shadow: inset 0 -1px 0 rgba(0,0,0,0.075), inset 0 1px 0 rgba(255,255,255,0.3), 0 1px 2px rgba(0,0,0,0.1);
+-moz-box-shadow: inset 0 -1px 0 rgba(0,0,0,0.075), inset 0 1px 0 rgba(255,255,255,0.3), 0 1px 2px rgba(0,0,0,0.1);
+box-shadow: inset 0 -1px 0 rgba(0,0,0,0.075), inset 0 1px 0 rgba(255,255,255,0.3), 0 1px 2px rgba(0,0,0,0.1);
+
 }
