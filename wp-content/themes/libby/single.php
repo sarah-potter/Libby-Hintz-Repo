@@ -16,11 +16,6 @@ get_header(); ?>
 			if ( false == $format)
 				$format = 'standard'; ?>
 
-		<div id="nav-above" class="navigation">
-			<div class="nav-previous"><?php previous_post_link( '%link', '<span class="meta-nav">' . _x( '&larr;', 'Previous post link', 'coraline' ) . '</span> %title' ); ?></div>
-			<div class="nav-next"><?php next_post_link( '%link', '%title <span class="meta-nav">' . _x( '&rarr;', 'Next post link', 'coraline' ) . '</span>' ); ?></div>
-		</div><!-- #nav-above -->
-
 		<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 			<?php if ( 'standard' != $format ) : ?>
