@@ -63,7 +63,7 @@ body {
 body.no-sidebars #container,
 .full-width #container,
 .attachment #container {
-	max-width: 990px;
+	max-width: 1300px;
 }
 #content-container {
 	width: 100%;
@@ -423,7 +423,7 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 #social-media-icons{
 	position: absolute;
 	left: 79.2%;
-	top: 31%;
+	top: 11em;
 	}
 #social-media-icons img{
 	padding-right: 1.5em;
@@ -1248,6 +1248,8 @@ a.entry-format:hover {
 
 /* =Store Styles
 ------------------*/
+.woocommerce #sidebar{display:none}
+
 .woocommerce-info{
 	
 }
