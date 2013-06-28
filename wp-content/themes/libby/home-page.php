@@ -1,6 +1,6 @@
 <?php
 /**
- * @package Libby
+ * Template Name: Home Page
  * @since Coraline 1.0
  */
 

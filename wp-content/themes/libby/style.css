@@ -94,7 +94,7 @@ body.no-sidebars #primary {
 
 /* 2-column layouts */
 .two-column #container {
-	max-width: 770px;
+	max-width: 960px;
 }
 .two-column #content {
 	width: 64.99%;
