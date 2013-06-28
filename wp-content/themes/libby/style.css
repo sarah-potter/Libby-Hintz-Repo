@@ -904,33 +904,42 @@ img.aligncenter {
 	max-width: 100%;
 }
 
+/* =Contact Form 
+---------------------*/
+.contact-form label{
+	text-transform: lowercase;
+	color: #d07e46;
+	font-style: italic;
+	font-weight: normal;
 
-/* =Asides
--------------------------------------------------------------- */
-
-.home #content .aside {
-	border-left: 1px solid #ccc;
-	font-size: 13px;
-	margin: 0;
-	padding: 0 0 0 0.85em;
 }
 
-
-/* =Gallery listing
--------------------------------------------------------------- */
-
-.format-gallery .size-thumbnail img {
-	border: 10px solid #eee;
-	margin-bottom: 0;
+.contact-form label span{
+	visibility: hidden;
 }
-.format-gallery .gallery-thumb {
-	float: left;
-	margin-right: 0.85em;
-}
-.home #content .format-gallery .entry-info {
+input[type=text], input[type=email], textarea {
+	border: 1px solid #7acccd;
+	}
+	
+.contact-form textarea{
+	width: 300px;
 }
 
+input[type="button"], input[type="submit"], input[type="reset"], input[type="file"]::-webkit-file-upload-button, button {
+	background: #7acccd;
+	width: 120px;
+	border: 0;
+	box-shadow: 0;
+	color: #FFF;
+	font-style: italic;
+	text-transform: lowercase;
+	padding: .35em 0;
+	
+}
 
+.contact-submit:hover{
+	cursor: pointer;
+}
 /* =Post Formats
 -------------------------------------------------------------- */
 

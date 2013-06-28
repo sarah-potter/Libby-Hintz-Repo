@@ -1,7 +1,7 @@
 .contact-form .clear-form { clear: both; }
 .contact-form input[type='text'], .contact-form input[type='email'] { width: 300px; max-width: 98%; margin-bottom: 13px; }
 .contact-form select { margin-bottom: 13px; }
-.contact-form textarea { height: 200px; width: 80%; float: none; margin-bottom: 13px; }
+.contact-form textarea { height: 200px; width: 50%; float: none; margin-bottom: 13px; }
 .contact-form input[type='radio'], .contact-form input[type='checkbox'] { float: none; margin-bottom: 13px; }
 .contact-form label { margin-bottom: 3px; float: none; font-weight: bold; display: block; }
 .contact-form label.checkbox, .contact-form label.radio { margin-bottom: 3px; float: none; font-weight: bold; display: inline-block; }
