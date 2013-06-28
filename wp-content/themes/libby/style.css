@@ -1041,28 +1041,61 @@ a.entry-format:hover {
 }
 .widget-area ul ul {
 	list-style: square;
-	margin: 0 0 1.5em 1.5em;
+	margin: 0 0 1.5em 0em;
+	list-style: none;
 }
 .widget-area ul ul ul {
 	margin-bottom: 0;
 }
 .widget-area ul ul li {
 	padding: 4px 0;
+	font-weight: normal;
 }
-.widget-title {
-	border-bottom: 1px solid #ccc;
-	border-top: 3px solid #000;
+h3.widget-title {
+	border-bottom: 0;
+	border-top: 0;
 	font-family: 'Raleway';
-	font-size: 13px;
-	font-weight: bold;
+	font-size: 2.5em;
+	font-weight: normal;
 	letter-spacing: 0.025em;
-	margin: 0 0 8px 0;
+	margin: 1em 0 .5em 0;
 	padding: 2px;
 	text-transform: uppercase;
+	color: #7acccd;
+	font-style: none;
 }
+
+#categories-2 li{
+	font-size: 1.5em;
+	font-style: italic;
+}
+
 .widget-container {
 	margin: 0 0 1.5em 0;
 }
+
+#sidebar-buttons{
+	width: 100%;
+	height: 225px;
+}
+
+#sidebar-buttons a{
+	float: left;
+	clear: both;
+	width: 45%;
+	background: #d07d45;
+	color: #FFF;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: "Raleway";
+	font-size: 2em;
+	text-align: center;
+	padding: 1em 3em;
+	margin-bottom: .5em;
+}
+a.shop-blog{
+ }
+
 
 /* Search Widget */
 #s {
@@ -1309,7 +1342,6 @@ a.entry-format:hover {
 }
 #site-cred{
 	text-align: left;
-	margin-left: 1.5em;
 	font-family: 'Georgia';
 	font-style: italic;
 	color: #3b3833;
