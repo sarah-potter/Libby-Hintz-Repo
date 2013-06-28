@@ -267,6 +267,8 @@ hr {
 /* Text elements */
 p {
 	margin-bottom: 1.7em;
+	line-height: 2;
+	color: #555555;
 }
 ul, ol {
 	margin: 0 0 1.7em 2.5em;
@@ -357,21 +359,21 @@ input[type=email] {
 
 /* Links */
 a {
-	color: #0060ff;
+	color: #7acccd;
 }
 a:visited {
-	color: #333;
+	color: #d38652;
 }
 a:active,
 a:hover {
-	color: #df0000;
+	color: #d38652;
 }
 h1 a, h2 a, h3 a {
 	color: #000;
 	text-decoration: none;
 }
 h1 a:hover, h2 a:hover, h3 a:hover {
-	color: #009900;
+	color: #d38652;
 }
 
 /* Text meant only for screen readers */
@@ -642,15 +644,28 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 .page-entry-title{
 	display: none
 	}
+.blog-entry-title{
+	text-transform: uppercase;
+	color: #d38652;
+	font-weight: normal;
+	font-size: 1.2em;
+}
+.meta-prep-author{
+	display: none;
+}
 .entry-meta {
-	color: #888;
-	font: 12px 'Raleway';
+	color: #7acccd;
+	font: 12px 'Georgia';
+	font-style: italic;
+	margin-top: 1em;
+	margin-bottom: 3em;
 }
 .entry-meta a {
-	color: #888;
+	color: #7acccd;
+	text-decoration: none;
 }
 .entry-meta a:hover {
-	color: #df0000;
+	color: #d38652;
 }
 .entry-content,
 .entry-summary {
@@ -680,14 +695,12 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 	color: #54b5a3;
 	font-weight: normal;
 }
-
 #contact-libby p{
 	color: #d07e46;
 	text-transform: uppercase;
 	font-size: .9em;
 	line-height: normal;
 }
-
 .entry-content h4 {
 	color: #888;
 	font-size: 17px;
@@ -703,6 +716,14 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 .entry-content h6 {
 	font-size: 10px;
 }
+
+/*Blog Styles */
+
+
+
+
+
+
 .entry-content table {
 	border: 1px solid #ccc;
 	margin: 0 -1px 24px 0;
@@ -937,9 +958,6 @@ input[type="button"], input[type="submit"], input[type="reset"], input[type="fil
 	
 }
 
-.contact-submit:hover{
-	cursor: pointer;
-}
 /* =Post Formats
 -------------------------------------------------------------- */
 
@@ -1048,8 +1066,14 @@ a.entry-format:hover {
 
 /* Search Widget */
 #s {
-	width: 60%;
+	width: 95%;
+	border: 2px solid #7acccd;
 }
+
+#searchsubmit{
+	display: none;
+}
+
 
 /* Calendar Widget */
 #wp-calendar {
@@ -1106,16 +1130,61 @@ a.entry-format:hover {
 #comments {
 	word-wrap: break-word;
 }
-#comments h3 {
-	border-bottom: 1px solid #ccc;
-	font-family: 'Raleway';
-	font-size: 13px;
-	font-weight: bold;
-	letter-spacing: 0.025em;
-	margin: 0 0 8px 0;
-	padding: 2px;
-	text-transform: uppercase;
+#respond{
+	border-top: 1px solid #7acccd;
+	margin-left: -2em;
 }
+
+#comments h3 {
+	border: 1px solid #d07d45;
+	font-family: 'Georgia';
+	font-style: italic;
+	color: #d07d45;
+	font-size: 13px;
+	font-weight: normal;
+	letter-spacing: 0.025em;
+	margin: -1em 2em 2em 2em;
+	padding: 1em .5em .5em .5em;
+	width: 100px;
+	text-align: center;
+	text-transform: lowercase;
+}
+.comment-notes{
+	display: none;
+}
+
+#commentform{
+	margin-left: 2em;
+}
+
+.comment-form-author{
+	width: 40%;
+	font-family: "Georgia";
+	font-style: italic;
+	text-transform: lowercase;
+	color: #d07e46;
+}
+
+.comment-form-email{
+	width: 40%;
+	font-family: "Georgia";
+	font-style: italic;
+	text-transform: lowercase;
+	color: #d07e46;
+}
+.comment-form-url{
+	width: 40%;
+	font-family: "Georgia";
+	font-style: italic;
+	text-transform: lowercase;
+	color: #d07e46;
+}
+
+.comment-form-comment{
+	width: 90%;
+	margin-top: 1em;
+}
+
 #comments ol {
 	list-style: none;
 	margin-left: 0;
@@ -1175,10 +1244,15 @@ a.entry-format:hover {
 	margin: 0 10px 0 0;
 }
 #respond .comment-form-comment {
-	margin: 0;
+	margin-top: 3em;
 }
 #respond .comment-form-comment label {
-	display: none;
+	display: block;
+	float: left;
+		font-family: "Georgia";
+	font-style: italic;
+	text-transform: lowercase;
+	color: #d07e46;
 }
 #respond .form-allowed-tags {
 	color: #888;
