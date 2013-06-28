@@ -63,7 +63,7 @@ body {
 body.no-sidebars #container,
 .full-width #container,
 .attachment #container {
-	max-width: 1300px;
+	max-width: 1200px;
 }
 #content-container {
 	width: 100%;
@@ -102,7 +102,7 @@ body.no-sidebars #primary {
 .two-column #primary,
 .two-column #secondary {
 	float: right;
-	width: 30.4%;
+	width: 27.4%;
 }
 
 /* 3-column layouts */
@@ -675,6 +675,19 @@ h1 a:hover, h2 a:hover, h3 a:hover {
 	letter-spacing: 0.025em;
 	text-transform: uppercase;
 }
+
+#contact-libby h3{
+	color: #54b5a3;
+	font-weight: normal;
+}
+
+#contact-libby p{
+	color: #d07e46;
+	text-transform: uppercase;
+	font-size: .9em;
+	line-height: normal;
+}
+
 .entry-content h4 {
 	color: #888;
 	font-size: 17px;
@@ -1182,7 +1195,7 @@ a.entry-format:hover {
 }
 .two-column #footer .widget-area {
 	margin: 0 5.19% 0 0;
-	width: 47.4%;
+	width: 48.4%;
 }
 .two-column #footer #second,
 #footer #fourth {
